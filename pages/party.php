@@ -7,9 +7,9 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../styles/graduation.css">
+    <link rel="stylesheet" href="../styles/party.css">
 
-    <title>Graduation Portfolio</title>
+    <title>Party Portfolio</title>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
 
             <a href="../index.php#services" class="back-home">&#8592;</a>
 
-            <h1>Graduation Portfolio</h1>
+            <h1>Party Portfolio</h1>
 
         </div>
 
@@ -43,11 +43,11 @@
 
         <div class="gallery">
 
-            <img src="../assets/images/graduation/makeup/1.jpg">
-            <img src="../assets/images/graduation/makeup/2.jpg">
-            <img src="../assets/images/graduation/makeup/3.jpg">
-            <img src="../assets/images/graduation/makeup/4.jpg">
-            <img src="../assets/images/graduation/makeup/5.jpg">
+            <img src="../assets/images/party/makeup/1.jpg">
+            <img src="../assets/images/party/makeup/2.jpg">
+            <img src="../assets/images/party/makeup/3.jpg">
+            <img src="../assets/images/party/makeup/4.jpg">
+            <img src="../assets/images/party/makeup/5.jpg">
 
         </div>
 
@@ -60,9 +60,9 @@
 
         <div class="gallery">
 
-            <img src="../assets/images/graduation/busana/1.jpg">
-            <img src="../assets/images/graduation/busana/2.jpg">
-            <img src="../assets/images/graduation/busana/3.jpg">
+            <img src="../assets/images/party/busana/1.jpg">
+            <img src="../assets/images/party/busana/2.jpg">
+            <img src="../assets/images/party/busana/3.jpg">
 
         </div>
 
@@ -70,7 +70,7 @@
 
     </section>
 
-    <script src="../scripts/graduation.js"></script>
+    <script src="../scripts/party.js"></script>
 
 </body>
 

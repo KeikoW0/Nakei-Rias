@@ -48,7 +48,7 @@
     <section id="makeup" class="portfolio category-content">
 
         <div class="gallery">
-
+            
             <img src="../assets/images/wedding/makeup/1.jpg">
             <img src="../assets/images/wedding/makeup/2.jpg">
             <img src="../assets/images/wedding/makeup/3.jpg">

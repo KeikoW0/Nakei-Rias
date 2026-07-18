@@ -7,6 +7,10 @@
 
     <!-- Cinzel Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <link rel="stylesheet" href="styles/style.css">
@@ -67,7 +71,7 @@
                     <h2 class="profile-name">Siti Astuti Wulandari</h2>
                     <p class="profile-title">Professional Makeup Artist</p>
                     <p class="profile-description">
-                        With over 10 years of experience, Siti is a renowned makeup artist known for her attention to detail and creative vision.
+                        "Makeup selalu menjadi passion saya dan cara saya membantu orang lain. Saya percaya bahwa setiap klien memiliki keunikan tersendiri, sehingga setiap sentuhan makeup dirancang untuk menonjolkan kecantikan alami, serta memberikan rasa nyaman dan percaya diri di setiap momen istimewa."
                     </p>
                 </div>
 
@@ -106,8 +110,13 @@
                     <span class="arrow">&#8250;</span>
                 </a>
 
-                <a href="pages/photografer.php" class="service-item">
-                    <span>Photografer</span>
+                <a href="pages/photovideografer.php" class="service-item">
+                    <span>Photo & Video Grafer</span>
+                    <span class="arrow">&#8250;</span>
+                </a>
+
+                <a href="pages/paket.php" class="service-item">
+                    <span>Paket</span>
                     <span class="arrow">&#8250;</span>
                 </a>
 
@@ -155,5 +164,7 @@
     </section>
 
 </body>
-
+<footer class="footer">
+    <p>Designed & Developed by Keiko Shafira Wiyana © 2026</p>
+</footer>
 </html>

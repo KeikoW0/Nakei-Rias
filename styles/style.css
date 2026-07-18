@@ -174,11 +174,15 @@ body {
 }
 
 .profile-description {
-  padding-top: 20px;
-  color: #9b7e20;
-  font-size: 16px;
-  margin-bottom: 10px;
-  font-weight: 400;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  color: #b8922d;
+  text-align: center;
+  line-height: 1.5;
 }
 
 .gold-line {
@@ -287,14 +291,12 @@ body {
   font-weight: 600;
 }
 
-
 /* ========================= */
 /* RESPONSIVE */
 /* ========================= */
 
 /* Laptop */
 @media (max-width: 1200px) {
-
   .bg-text span {
     font-size: 80px;
   }
@@ -307,12 +309,10 @@ body {
     width: 400px;
     height: 400px;
   }
-
 }
 
 /* Tablet */
 @media (max-width: 992px) {
-
   .bg-text {
     height: 500px;
   }
@@ -361,12 +361,10 @@ body {
   .service-item {
     font-size: 22px;
   }
-
 }
 
 /* HP */
 @media (max-width: 576px) {
-
   .hero {
     min-height: auto;
   }
@@ -450,5 +448,29 @@ body {
   .gold-line {
     width: 90%;
   }
+}
 
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+
+.footer {
+  width: 100%;
+  padding: 30px 20px;
+  margin-top: 10px;
+
+  text-align: center;
+
+  border-top: 1px solid rgba(184, 146, 45, 0.35);
+}
+
+.footer p {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 13px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+
+.footer p:last-child {
+  color: #b8922d;
 }

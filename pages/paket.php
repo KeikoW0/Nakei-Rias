@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/paket.css">
+
+    <title>Paket</title>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="header-top">
+
+            <a href="../index.php#services" class="back-home">&#8592;</a>
+
+            <h1>Paket</h1>
+
+        </div>
+
+    </div>
+
+    <div class="package-list">
+
+        <div class="package-card">
+
+            <img src="../assets/images/packages/package1.jpg" alt="Package 1">
+
+            <div class="package-info">
+
+                <h2>Paket Tunangan</h2>
+                <h3>Kebahagiaan Pengantin, Kebahagiaan Kami</h3>
+                <p>
+                    Makeup Calon Pengantin • Dekorasi • Dokumentasi • Pembawa Acara • Catering 50 Pack
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="package-card">
+
+            <img src="../assets/images/packages/package2.jpg">
+
+            <div class="package-info">
+
+                <h2>Paket Silver</h2>
+                <h3>Kebahagiaan Pengantin, Kebahagiaan Kami</h3>
+                <p>
+                    Makeup Pengantin • Dekorasi • Dokumentasi • Wedding Organizer • Pembawa Acara • Catering 300 Pack
+
+                </p>
+
+
+            </div>
+
+        </div>
+
+        <div class="package-card">
+
+            <img src="../assets/images/packages/package3.jpg">
+
+            <div class="package-info">
+
+                <h2>Paket Emas</h2>
+                <h3>Kebahagiaan Pengantin, Kebahagiaan Kami</h3>
+                <p>
+                    Makeup Pengantin • Dekorasi • Dokumentasi • Wedding Organizer • Pembawa Acara • Catering 500 Pack • Entertainment
+
+                </p>
+
+            </div>
+
+        </div>
+
+         <div class="package-card">
+
+            <img src="../assets/images/packages/package4.jpg">
+
+            <div class="package-info">
+
+                <h2>Paket Diamond PLUS</h2>
+                <h3>Kebahagiaan Pengantin, Kebahagiaan Kami</h3>
+                <p>
+                    Makeup Pengantin • Dekorasi • Dokumentasi • Wedding Organizer • Pembawa Acara • Catering 500 Pack • Entertainment
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
