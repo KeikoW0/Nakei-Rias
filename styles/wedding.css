@@ -1,0 +1,317 @@
+/* ========================= */
+/* RESET */
+/* ========================= */
+html{
+    scroll-behavior:smooth;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#000;
+    color:#fff;
+    font-family:"Cinzel", serif;
+}
+
+/* ========================= */
+/* HEADER */
+/* ========================= */
+
+.header{
+    width:90%;
+    max-width:1400px;
+    margin:40px auto;
+    position:relative;
+}
+
+.header-top{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+}
+
+.back-home{
+    position:absolute;
+    left:0;
+
+    color:#b8922d;
+    text-decoration:none;
+
+    font-size:45px;
+    font-weight:bold;
+
+    transition:.3s;
+}
+
+.back-home:hover{
+    transform:translateX(-6px);
+}
+
+.header h1{
+    color:#b8922d;
+    font-size:48px;
+    font-weight:600;
+    text-align:center;
+}
+
+/* ========================= */
+/* CATEGORY */
+/* ========================= */
+
+.category-bar{
+    width:90%;
+    max-width:1400px;
+    margin:50px auto;
+
+    display:flex;
+    gap:20px;
+
+    overflow-x:auto;
+    scrollbar-width:none;
+
+    justify-content:center;
+}
+
+.category-bar::-webkit-scrollbar{
+    display:none;
+}
+
+.category{
+
+    background:transparent;
+
+    color:#b8922d;
+
+    border:2px solid #b8922d;
+
+    border-radius:30px;
+
+    padding:12px 28px;
+
+    font-size:18px;
+
+    font-family:"Cinzel",serif;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    white-space:nowrap;
+
+}
+
+.category:hover,
+.category.active{
+
+    background:#b8922d;
+    color:white;
+
+}
+
+/* ========================= */
+/* GALLERY */
+/* ========================= */
+
+.portfolio{
+
+    width:90%;
+    max-width:1400px;
+
+    margin:0 auto 80px;
+
+}
+
+/* Pinterest Layout */
+
+.gallery{
+
+    column-count:4;
+    column-gap:20px;
+
+}
+
+.gallery img{
+
+    width:100%;
+    height:auto;
+
+    display:block;
+
+    margin-bottom:20px;
+
+    border-radius:18px;
+
+    break-inside:avoid;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+.gallery img:hover{
+
+    transform:scale(1.03);
+
+    filter:brightness(.92);
+
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
+@media(max-width:1200px){
+
+.gallery{
+column-count:3;
+}
+
+}
+
+@media(max-width:768px){
+
+.header h1{
+font-size:36px;
+}
+
+.back-home{
+font-size:35px;
+}
+
+.gallery{
+column-count:2;
+}
+
+}
+
+@media(max-width:500px){
+
+.header h1{
+font-size:28px;
+}
+
+.category{
+font-size:15px;
+padding:10px 18px;
+}
+
+.gallery{
+column-count:1;
+}
+
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
+/* Laptop */
+@media (max-width: 1200px){
+
+    .gallery{
+        column-count:3;
+    }
+
+    .header h1{
+        font-size:42px;
+    }
+
+}
+
+/* Tablet */
+@media (max-width: 992px){
+
+    .header{
+        margin:30px auto;
+    }
+
+    .header h1{
+        font-size:34px;
+    }
+
+    .back-home{
+        font-size:34px;
+    }
+
+    .category-bar{
+        justify-content:flex-start;
+        padding-bottom:5px;
+    }
+
+    .gallery{
+        column-count:2;
+    }
+
+}
+
+/* HP */
+@media (max-width: 576px){
+
+    .header{
+        width:95%;
+    }
+
+    .header-top{
+        justify-content:center;
+    }
+
+    .header h1{
+        font-size:24px;
+        padding:0 40px;
+    }
+
+    .back-home{
+        left:0;
+        font-size:28px;
+    }
+
+    .category-bar{
+        width:95%;
+        gap:10px;
+        justify-content:flex-start;
+        overflow-x:auto;
+    }
+
+    .category{
+        padding:10px 18px;
+        font-size:14px;
+    }
+
+    .portfolio{
+        width:95%;
+    }
+
+    .gallery{
+        column-count:2;
+        column-gap:12px;
+    }
+
+    .gallery img{
+        margin-bottom:12px;
+        border-radius:12px;
+    }
+
+}
+
+/* HP kecil */
+@media (max-width: 400px){
+
+    .header h1{
+        font-size:20px;
+    }
+
+    .back-home{
+        font-size:24px;
+    }
+
+    .gallery{
+        column-count:1;
+    }
+
+}
