@@ -291,6 +291,32 @@ body {
 }
 
 /* ========================= */
+/* FOOTER */
+/* ========================= */
+
+.footer {
+  width: 100%;
+  padding: 30px 20px;
+  margin-top: 10px;
+
+  text-align: center;
+
+  border-top: 1px solid rgba(184, 146, 45, 0.35);
+}
+
+.footer p {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 13px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+
+.footer p:last-child {
+  color: #b8922d;
+}
+
+
+/* ========================= */
 /* RESPONSIVE */
 /* ========================= */
 
@@ -312,6 +338,12 @@ body {
 
 /* Tablet */
 @media (max-width: 992px) {
+  .hero-content{
+
+    min-height:500px;
+
+}
+
   .bg-text {
     height: 500px;
   }
@@ -363,113 +395,85 @@ body {
 }
 
 /* HP */
-@media (max-width: 576px) {
-  .hero {
-    min-height: auto;
-  }
+@media (max-width:576px){
 
-  .banner img {
-    width: 100%;
-  }
+.hero-content{
 
-  .bg-text {
-    display: none;
-  }
+    min-height:430px;
 
-  .logo {
-    padding: 20px;
-  }
-
-  .logo img {
-    width: 180px;
-    height: 180px;
-  }
-
-  .mua-card,
-  .services-card,
-  .contact-card {
-    width: 95%;
-    margin: 30px auto;
-  }
-
-  .card-title {
-    font-size: 22px;
-    padding: 14px;
-  }
-
-  .card-content {
-    padding: 25px;
-    gap: 25px;
-  }
-
-  .profile img {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-  }
-
-  .profile-name {
-    font-size: 24px;
-  }
-
-  .profile-title {
-    font-size: 14px;
-  }
-
-  .services-list {
-    padding: 15px;
-  }
-
-  .service-item {
-    font-size: 18px;
-    padding: 16px;
-  }
-
-  .arrow {
-    font-size: 28px;
-  }
-
-  .contact-content {
-    padding: 20px;
-  }
-
-  .contact-item {
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-    padding: 18px;
-  }
-
-  .contact-item span {
-    font-size: 16px;
-  }
-
-  .gold-line {
-    width: 90%;
-  }
 }
 
-/* ========================= */
-/* FOOTER */
-/* ========================= */
+.banner img{
 
-.footer {
-  width: 100%;
-  padding: 30px 20px;
-  margin-top: 10px;
+    width:100%;
 
-  text-align: center;
-
-  border-top: 1px solid rgba(184, 146, 45, 0.35);
 }
 
-.footer p {
-  color: rgba(255, 255, 255, 0.55);
-  font-size: 13px;
-  line-height: 1.8;
-  letter-spacing: 1px;
+.bg-text{
+
+    display:grid;
+
+    grid-template-columns:1fr;
+
+    gap:0px;
+
+    padding-top:5px;
+
 }
 
-.footer p:last-child {
-  color: #b8922d;
+.bg-text span{
+
+    font-size:52px;
+
+    line-height:0;
+
+}
+
+.logo img{
+
+    width:180px;
+    height:180px;
+
+}
+
+.card-content{
+
+    flex-direction:column;
+
+    text-align:center;
+
+    align-items:center;
+
+}
+
+.profile{
+
+    flex:none;
+
+}
+
+.profile img{
+
+    width:220px;
+
+    height:auto;
+
+}
+
+.profile-description{
+
+    padding:20px;
+
+    font-size:18px;
+
+}
+
+.contact-item{
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
 }
